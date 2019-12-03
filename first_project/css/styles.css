@@ -4,10 +4,19 @@ body {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 50px;
+    grid-template-columns: auto auto;
+    height: 100px;
+    margin-bottom: 25px;
     background-color: blue;
     padding: 10px;
+}
+.logo-image {
+    text-align: left;
+}
+.header-text {
+    font-weight: 200;
+    text-align: right;
+
 }
 .grid-container > div {
     background-color: blueviolet;

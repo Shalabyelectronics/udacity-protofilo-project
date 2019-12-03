@@ -1,0 +1,15 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+    background-color: blue;
+    padding: 10px;
+}
+.grid-container > div {
+    background-color: blueviolet;
+    border: crimson;
+}

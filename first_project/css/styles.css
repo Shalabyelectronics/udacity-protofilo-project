@@ -2,7 +2,20 @@
     width: 100px;
 
 }
-.images {
+.small-images {
     width: 271px;
     height: 186px;
+}
+.small-images-container,
+.top-row {
+    margin-top: 30px;
+}
+.center-image {
+    width: 100%;
+}
+.line {
+    width: 100%;
+}
+hr {
+    border: 3px solid #7d97ad;
 }

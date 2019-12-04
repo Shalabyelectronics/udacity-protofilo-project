@@ -1,24 +1,32 @@
 body {
     font-family: 'Oswald', sans-serif;
-    font-size: large;
+    color: #2d3c49;
 }
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     height: 100px;
     margin-bottom: 25px;
-    background-color: blue;
-    padding: 10px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #7d97ed;
 }
 .logo-image {
     text-align: left;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
 }
 .header-text {
     font-weight: 200;
     text-align: right;
 
 }
+div {
+    display: block;
+}
 .grid-container > div {
-    background-color: blueviolet;
+
     border: crimson;
 }
